@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" fill="none" class="saviora-brand-logo">
+  <defs>
+    <!-- Cross Gradient (Teal-Green) -->
+    <linearGradient id="savioraCrossGrad" x1="250" y1="10" x2="250" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00C49F"/>
+      <stop offset="100%" stop-color="#009A82"/>
+    </linearGradient>
+
+    <!-- Center Person Gradient (Deep Royal Navy Blue) -->
+    <linearGradient id="savioraPersonGrad" x1="250" y1="170" x2="250" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0E5CAD"/>
+      <stop offset="100%" stop-color="#06326E"/>
+    </linearGradient>
+
+    <!-- Left Upper Wing Gradient (Teal-Cyan) -->
+    <linearGradient id="savioraLeftUpperGrad" x1="230" y1="140" x2="30" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#028090"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+
+    <!-- Left Lower Leaf Gradient -->
+    <linearGradient id="savioraLeftLowerGrad" x1="210" y1="380" x2="30" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#007F73"/>
+      <stop offset="100%" stop-color="#00B894"/>
+    </linearGradient>
+
+    <!-- Right Upper Wing Gradient (Sky to Royal Blue) -->
+    <linearGradient id="savioraRightUpperGrad" x1="270" y1="140" x2="470" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0077B6"/>
+      <stop offset="100%" stop-color="#0096C7"/>
+    </linearGradient>
+
+    <!-- Right Lower Leaf Gradient (Royal to Electric Blue) -->
+    <linearGradient id="savioraRightLowerGrad" x1="290" y1="380" x2="470" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#03045E"/>
+      <stop offset="100%" stop-color="#0077B6"/>
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow for Ultra HD Depth -->
+    <filter id="savioraLogoGlow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00529B" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#savioraLogoGlow)">
+    <!-- 1. Top Medical Cross -->
+    <path 
+      d="M233 12 C233 7.5 236.5 4 241 4 H259 C263.5 4 267 7.5 267 12 V52 H307 C311.5 52 315 55.5 315 60 V78 C315 82.5 311.5 86 307 86 H267 V126 C267 130.5 263.5 134 259 134 H241 C236.5 134 233 130.5 233 126 V86 H193 C188.5 86 185 82.5 185 78 V60 C185 55.5 188.5 52 193 52 H233 V12 Z" 
+      fill="url(#savioraCrossGrad)"
+    />
+
+    <!-- 2. Central Human Figure -->
+    <!-- Head -->
+    <circle cx="250" cy="192" r="30" fill="url(#savioraPersonGrad)" />
+
+    <!-- Uplifting Body / Arms -->
+    <path 
+      d="M250 226 
+         C260 226 270 216 288 198 
+         C315 170 355 140 382 128 
+         C386 126 389 130 386 133 
+         C354 168 316 220 294 258 
+         C284 276 272 310 266 350 
+         C262 376 256 398 250 402 
+         C244 398 238 376 234 350 
+         C228 310 216 276 206 258 
+         C184 220 146 168 114 133 
+         C111 130 114 126 118 128 
+         C145 140 185 170 212 198 
+         C230 216 240 226 250 226 Z" 
+      fill="url(#savioraPersonGrad)"
+    />
+
+    <!-- 3. Left Upper Teal Wing -->
+    <path 
+      d="M208 262 
+         C180 234 130 196 68 152 
+         C38 130 24 132 20 144 
+         C16 162 16 198 32 242 
+         C46 280 84 316 142 328 
+         C172 334 198 310 208 262 Z" 
+      fill="url(#savioraLeftUpperGrad)"
+    />
+
+    <!-- 4. Left Lower Green-Teal Leaf -->
+    <path 
+      d="M202 366 
+         C188 386 156 408 110 408 
+         C52 408 14 362 12 306 
+         C10 286 18 268 28 258 
+         C32 254 36 256 38 262 
+         C56 314 116 356 196 364 
+         C202 364 204 365 202 366 Z" 
+      fill="url(#savioraLeftLowerGrad)"
+    />
+
+    <!-- 5. Right Upper Royal-Blue Wing -->
+    <path 
+      d="M292 262 
+         C320 234 370 196 432 152 
+         C462 130 476 132 480 144 
+         C484 162 484 198 468 242 
+         C454 280 416 316 358 328 
+         C328 334 302 310 292 262 Z" 
+      fill="url(#savioraRightUpperGrad)"
+    />
+
+    <!-- 6. Right Lower Blue Leaf -->
+    <path 
+      d="M298 366 
+         C312 386 344 408 390 408 
+         C448 408 486 362 488 306 
+         C490 286 482 268 472 258 
+         C468 254 464 256 462 262 
+         C444 314 384 356 304 364 
+         C298 364 296 365 298 366 Z" 
+      fill="url(#savioraRightLowerGrad)"
+    />
+  </g>
+</svg>

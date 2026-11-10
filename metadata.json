@@ -1,0 +1,6 @@
+{
+  "name": "Saviora Health",
+  "description": "Premium healthcare technology platform extending clinical care beyond the consultation room with doctor clinical workflows, AI post-consultation education, and patient engagement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
